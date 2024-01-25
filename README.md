@@ -1,2 +1,5 @@
-# H_Ali_WEB601Assignments_MyFavouritePolitician
+## Haider Ali
+
+## My Favourite Politician
+This purpose of this project is to create a javascript Assignment
  
