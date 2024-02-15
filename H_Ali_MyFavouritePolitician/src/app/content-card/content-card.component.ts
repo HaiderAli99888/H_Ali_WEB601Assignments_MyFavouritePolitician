@@ -17,7 +17,7 @@ export class ContentCardComponent {
       creator: 'Haider Ali',
       imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Imran_Ahmed_Khan_Niazi_-_UNGA_%2848784380531%29_%28cropped%29.jpg/220px-Imran_Ahmed_Khan_Niazi_-_UNGA_%2848784380531%29_%28cropped%29.jpg',
       type: 'Politicians',
-      tags: ['politician', 'pakistan']
+      tags: ['politician', 'Pakistan']
     });
 
     this.contentList.add({
@@ -27,7 +27,7 @@ export class ContentCardComponent {
       creator: 'Haider Ali',
       imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/220px-Donald_Trump_official_portrait.jpg',
       type: 'Politicians',
-      tags: ['politician', 'usa']
+      tags: ['politician', 'Usa']
     });
 
     this.contentList.add({
@@ -37,7 +37,7 @@ export class ContentCardComponent {
       creator: 'Haider Ali',
       imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png/220px-Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png',
       type: 'Politicians',
-      tags: ['politician', 'india']
+      tags: ['politician', 'India']
     });
   }
 
