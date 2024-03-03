@@ -57,4 +57,11 @@ export class ContentListComponent implements OnInit {
   handleImageClick(id: number, title: string): void {
     console.log(`Clicked on image with ID: ${id}, Title: ${title}`);
   }
+  addNewContent(newContent: Content): void {
+    const maxId = Math.max(...this.contentArray.map(c => c.id));
+    newContent.id = maxId + 1;
+  
+    this.contentArray.push(newContent);
+  }
+  
 }
