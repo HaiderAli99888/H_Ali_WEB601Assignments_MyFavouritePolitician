@@ -38,7 +38,6 @@ export class AppComponent implements OnInit{
           (content: Content | undefined) => {
             if (content) {
               this.singleContent = content;
-              // this.messageService.addMessage(`Content Item at id: ${inputId}`);
             } else {
               this.messageService.addMessage('Error: Content not found.');
             }
